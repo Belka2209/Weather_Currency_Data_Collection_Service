@@ -56,7 +56,7 @@
 ### 1. Клонируйте репозиторий
 
    ```bash
-   git clone <ваш-репозиторий>
+   git clone https://github.com/Belka2209/Weather_Currency_Data_Collection_Service.git
    cd weather-currency-service
    ```
 
@@ -70,6 +70,7 @@
 
 ## Database Configuration
 
+```env
 DB_NAME=apidata
 DB_USER=postgres
 DB_PASSWORD=postgres
@@ -88,6 +89,7 @@ CURRENCY_API_KEY=dummy
 ## Application Settings
 
 REQUEST_INTERVAL=5      # интервал в минутах
+```
 
 ### 4. Запустите через Docker Compose
 
